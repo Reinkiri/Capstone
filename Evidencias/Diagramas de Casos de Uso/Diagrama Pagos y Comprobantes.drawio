@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="o3wzvhDrvcjiOh5PzR_m">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VJo16pInvfH7VXfB39ng-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Cliente&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="60" x="60" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VJo16pInvfH7VXfB39ng-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=light-dark(#FFFFFF,#000000);" value="Sistema Dulce Dia (Pagos y Comprobantes)" vertex="1">
+          <mxGeometry height="590" width="310" x="460" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VJo16pInvfH7VXfB39ng-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Registrar abono" vertex="1">
+          <mxGeometry height="50" width="210" x="510" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VJo16pInvfH7VXfB39ng-4" edge="1" parent="1" source="VJo16pInvfH7VXfB39ng-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VJo16pInvfH7VXfB39ng-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="350" as="sourcePoint" />
+            <mxPoint x="220" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJo16pInvfH7VXfB39ng-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#FFFFFF;" value="Registrar pago completo" vertex="1">
+          <mxGeometry height="50" width="210" x="510" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="VJo16pInvfH7VXfB39ng-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Actualizar estado del Pedido" vertex="1">
+          <mxGeometry height="50" width="210" x="510" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="VJo16pInvfH7VXfB39ng-7" edge="1" parent="1" source="VJo16pInvfH7VXfB39ng-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VJo16pInvfH7VXfB39ng-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="190" y="420" as="sourcePoint" />
+            <mxPoint x="240" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJo16pInvfH7VXfB39ng-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#FFFFFF;" value="Consultar saldo" vertex="1">
+          <mxGeometry height="50" width="210" x="510" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="VJo16pInvfH7VXfB39ng-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Generar comprobante" vertex="1">
+          <mxGeometry height="50" width="210" x="510" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="VJo16pInvfH7VXfB39ng-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Consultar comprobante" vertex="1">
+          <mxGeometry height="50" width="210" x="510" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="VJo16pInvfH7VXfB39ng-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Enviar comprobante por WhatsApp" vertex="1">
+          <mxGeometry height="50" width="210" x="510" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="VJo16pInvfH7VXfB39ng-12" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;div&gt;Personal de&lt;/div&gt;&lt;div&gt;&amp;nbsp;Atención&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="60" x="60" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="VJo16pInvfH7VXfB39ng-13" edge="1" parent="1" source="VJo16pInvfH7VXfB39ng-12" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VJo16pInvfH7VXfB39ng-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="480" as="sourcePoint" />
+            <mxPoint x="340" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJo16pInvfH7VXfB39ng-14" edge="1" parent="1" source="VJo16pInvfH7VXfB39ng-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VJo16pInvfH7VXfB39ng-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="230" y="360" as="sourcePoint" />
+            <mxPoint x="280" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJo16pInvfH7VXfB39ng-16" edge="1" parent="1" source="VJo16pInvfH7VXfB39ng-12" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VJo16pInvfH7VXfB39ng-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="490" as="sourcePoint" />
+            <mxPoint x="220" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJo16pInvfH7VXfB39ng-17" edge="1" parent="1" source="VJo16pInvfH7VXfB39ng-12" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VJo16pInvfH7VXfB39ng-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="530" as="sourcePoint" />
+            <mxPoint x="380" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJo16pInvfH7VXfB39ng-22" edge="1" parent="1" source="VJo16pInvfH7VXfB39ng-12" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VJo16pInvfH7VXfB39ng-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="600" as="sourcePoint" />
+            <mxPoint x="230" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
